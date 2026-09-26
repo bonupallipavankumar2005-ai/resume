@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bonupalli pavan kumar. | Full Stack Developer</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="logo">P<span>.</span></a>
+      <nav class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#" class="btn btn-dark" id="downloadResume">
+        <i data-lucide="download"></i> Download Resume
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Bonupalli Pavan kumar.</h1>
+      <h2 class="hero-role">Full Stack Developer | Learner | Problem Solver</h2>
+      <p class="hero-desc">
+        I build responsive and user-friendly web applications and love turning
+        ideas into real solutions. Passionate about learning new technologies
+        and growing in the tech world.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Projects <i data-lucide="arrow-right"></i></a>
+        <a href="#contact" class="btn btn-outline"><i data-lucide="mail"></i> Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+        <a href="#" aria-label="Email"><i data-lucide="mail"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="blob"></div>
+      <img src="mee.jpg" alt="Portrait of Padmavathi R." id="profileImg">
+      <span class="doodle">Code<br>Create<br>Grow</span>
+    </div>
+  </section>
+
+  <!-- ABOUT + SKILLS -->
+  <section class="about-skills">
+    <div class="about" id="about">
+      <div class="section-heading">
+        <i data-lucide="user"></i>
+        <h3>About Me</h3>
+      </div>
+      <p>
+        I am a passionate Full Stack Developer with a strong interest in web
+        technologies. I enjoy building clean, scalable and user-friendly
+        applications. I am always curious to learn new tools and improve my
+        skills.
+      </p>
+      <p>
+        I believe in consistency, continuous learning and creating solutions
+        that make a difference.
+      </p>
+      <div class="about-meta">
+        <span><i data-lucide="map-pin"></i> Thirupathi, India</span>
+        <span><i data-lucide="graduation-cap"></i> Siddartha Engineering College</span>
+        <span><i data-lucide="briefcase"></i> Open to Opportunities</span>
+      </div>
+    </div>
+
+    <div class="skills" id="skills">
+      <div class="section-heading">
+        <i data-lucide="code-2"></i>
+        <h3>Skills</h3>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-icon frontend"><i data-lucide="monitor"></i></div>
+        <div>
+          <h4>Frontend</h4>
+          <div class="tags">
+            <span class="tag tag-blue">HTML</span>
+            <span class="tag tag-blue">CSS</span>
+            <span class="tag tag-blue">JavaScript</span>
+            <span class="tag tag-blue">React</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-icon backend"><i data-lucide="server"></i></div>
+        <div>
+          <h4>Backend</h4>
+          <div class="tags">
+            <span class="tag tag-green">Node.js</span>
+            <span class="tag tag-green">Express.js</span>
+            <span class="tag tag-green">MongoDB</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-icon tools"><i data-lucide="wrench"></i></div>
+        <div>
+          <h4>Tools &amp; Others</h4>
+          <div class="tags">
+            <span class="tag tag-purple">Git</span>
+            <span class="tag tag-purple">GitHub</span>
+            <span class="tag tag-purple">VS Code</span>
+            <span class="tag tag-purple">Postman</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-icon soft"><i data-lucide="users"></i></div>
+        <div>
+          <h4>Soft Skills</h4>
+          <div class="tags">
+            <span class="tag tag-orange">Communication</span>
+            <span class="tag tag-orange">Teamwork</span>
+            <span class="tag tag-orange">Problem Solving</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="projects-header">
+      <div class="section-heading">
+        <i data-lucide="folder"></i>
+        <h3>My Projects</h3>
+      </div>
+      <a href="#" class="view-all">View All Projects <i data-lucide="arrow-right"></i></a>
+    </div>
+
+    <div class="project-grid" id="projectGrid">
+      <!-- Cards injected by script.js -->
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-heading center">
+      <i data-lucide="send"></i>
+      <h3>Contact Me</h3>
+    </div>
+    <p class="contact-sub">Have a project in mind or just want to say hi? My inbox is open.</p>
+
+    <form class="contact-form" id="contactForm">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message <i data-lucide="send"></i></button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> bonupalli pavankumar.— Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
