@@ -101,7 +101,7 @@ form.addEventListener("submit", (e) => {
 // ---------- Download resume placeholder ----------
 document.getElementById("downloadResume").addEventListener("click", (e) => {
   e.preventDefault();
-  alert("href=\"resume.pdf\" download.");
+  alert("href="assets/resume.pdf" download="My_Resume.pdf">");
 });
 
 // ---------- Footer year ----------
