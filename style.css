@@ -186,18 +186,25 @@ section { padding: 80px 8%; }
 }
 .hero-socials {
   display: flex;
-  gap: 16px;
+  gap: 14px;
+  margin-top: 24px;
 }
+
 .hero-socials a {
-  width: 40px; height: 40px;
-  border-radius: 50%;
-  background: var(--white);
+  width: 42px;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--navy);
-  box-shadow: var(--shadow);
-  transition: transform 0.15s ease, color 0.15s ease;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  color: #222;
+}
+
+.hero-socials svg {
+  width: 20px;
+  height: 20px;
+  stroke: currentColor;
 }
 .hero-socials a:hover { transform: translateY(-3px); color: var(--blue); }
 .hero-socials i { width: 18px; height: 18px; }
