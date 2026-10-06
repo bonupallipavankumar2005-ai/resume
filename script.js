@@ -62,7 +62,10 @@ function renderProjects() {
 renderProjects();
 
 // ---------- Icons ----------
-if (window.lucide) lucide.createIcons();
+<script src="script.js"></script>
+<script>
+  lucide.createIcons();
+</script>
 
 // ---------- Mobile nav toggle ----------
 const menuToggle = document.getElementById("menuToggle");
